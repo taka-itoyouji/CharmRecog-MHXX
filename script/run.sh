@@ -1,10 +1,8 @@
 #!/bin/bash
 
-dataset=20220430
+dataset=test
 
-# pngdir=~/database/monsterhunter/XX/goseki_png/20220311/test
-pngdir=~/database/monsterhunter/XX/goseki_png/20220311
-pngdir=~/database/monsterhunter/XX/goseki_png/test
+pngdir=../data/input
 
 outdir=../out/$dataset
 tooldir=../tool

@@ -17,7 +17,7 @@ from Bio.pairwise2 import format_alignment
 
 tessdata_dir_config = '--tessdata-dir "/home/taka/work/goseki/imagerecog/tessdata_best"'
 
-def correct_miss_num(str, list_path='../out/point_list.txt'):
+def correct_miss_num(str, list_path='../data/point_list.txt'):
     max_score = -1e3
     max_idx = 0
     out = str
@@ -49,7 +49,7 @@ def correct_miss_num(str, list_path='../out/point_list.txt'):
             # print(f"{str} --> {out}")
     return out
 
-def correct_miss(str, list_path='../out/skill_list.txt'):
+def correct_miss(str, list_path='../data/skill_list.txt'):
     max_score = -1e3
     max_idx = 0
 
